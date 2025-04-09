@@ -54,7 +54,18 @@
 		icon: "TableOutlined",
 		component: "./ClubRegistrationManagement",
 	},
-
+	{
+		path: '/club-member-management',
+		name: 'Club Member Management',
+		icon: 'team',
+		component: './ClubMemberManagement',
+	},
+	{
+		path: '/club-statistics',
+		name: 'Club Statistics',
+		icon: 'barChart',
+		component: './ClubStatistics',
+	},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',

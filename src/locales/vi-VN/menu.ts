@@ -8,4 +8,6 @@ export default {
 
 	'menu.DanhMuc': 'Danh mục',
 	'menu.DanhMuc.ChucVu': 'Chức vụ',
+	// 'menu.ClubMemberManagement': 'Quản lý thành viên',
+	// 'menu.ClubStatistics': 'Báo cáo thống kê',
 };
