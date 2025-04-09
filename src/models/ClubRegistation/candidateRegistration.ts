@@ -140,6 +140,12 @@ export default () => {
 		return false;
 	};
 
+	const getApprovedMembers = () => {
+		return candidates.filter(
+			(candidate) => candidate.status === Status.APPROVED
+		)
+	}
+
 	// apply filter if any filter change
 	useEffect(() => {
 		applyFilters();
@@ -177,5 +183,6 @@ export default () => {
 		applyFilters,
 		handleApprove,
 		handleReject,
+		getApprovedMembers
 	};
 };
